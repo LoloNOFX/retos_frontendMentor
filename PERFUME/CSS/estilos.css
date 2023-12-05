@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: antiquewhite;
+    /* display: grid;
+    place-content: center; */
+    border: 3px solid black ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_container{
+    border: 2px solid purple;
+    width: 600px;
+}
+.imagen{
+    /* width: auto; */
+    height: 500px;
+    aspect-ratio: 1/2;
+    background-image: url("../IMAGES/image-product-desktop.jpg");
+    background-size: cover;
+    background-position: center;/*size ajusta tamaño imagen para cubrir todo el fondo. position centra el fondo en el centro*/
+}
+.descripcion_container{
+    border: 1px solid red;
+}
+.nombre{
+  text-align: left;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  line-height: 18px;
+  border: 1px solid blue;
+}
+.titulo{
+    border: 1px solid cornflowerblue;
+}
+.subtitulo{
+    border: 1px solid yellow;
+}
+.precio1{
+    border: 1px solid yellowgreen;
+
+}
+.precio2{
+    border: 1px solid pink;
+}
+.btn_pago{
+}
+
